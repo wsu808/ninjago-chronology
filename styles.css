@@ -1,0 +1,164 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden; 
+	/*zapobieganie horizontall scroll na yelefonach*/
+}
+
+body {
+	font-family:monospace;
+	font-weight:bold;
+	background-color:#fca100; //#cccccc;
+	color:black;
+	background-image: url("ninjabg.png");
+	//backdrop-filter: blur(2px);
+	//background-image: url("https://i.pinimg.com/originals/df/d1/93/dfd1934a073eb6d4d10206a31e016021.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;background-position:bottom;
+	background-size:100% auto;
+}
+
+a {
+	color:white;
+}
+ 
+h1 {
+	color:crimson;
+	background-color:#252525;//#f1f1f1;
+	//font-size:200%;
+	text-align:center; 
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h2 {
+	color:crimson;
+	background-color:#252525;//#f1f1f1;
+	//font-size:200%;
+	text-align:center; 
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h3 {
+	color:crimson;
+	background-color:#252525;//#f1f1f1;
+	//font-size:200%;
+	text-align:center; 
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+blockquote {
+	color:white;
+	background-color:#252525;//#f1f1f1;
+	padding:5px 10px;
+	margin-left:15px;
+	//font-size:110%;
+	border-left:4px solid crimson;
+	width:50%;
+	min-width:320px;
+	display:inline-block;
+}
+
+ol blockquote {
+	min-width: 200px;
+	width: 85%;
+}
+
+ol ul {
+	min-width: 110px;
+	width: 73%;
+	padding: 5px 5px 5px 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+blockquote.bluequote {
+	border-left:4px solid blue;
+	background-color: #f1f1f1;
+	color: black;
+	width: auto;
+}
+
+blockquote.bluequote a {
+	color: blue;
+}
+
+ol, ul {
+	color:white;
+	background-color:rgba(37,37,37,0.3);//#252525;//#f1f1f1;
+	margin-left:15px;
+	//font-size:110%;
+	border-left:4px solid blue;
+	padding: 5px 45px;
+	width:30%;
+	min-width:250px;
+	display:inline-block;
+}
+
+hr {
+	border:none;
+	border-top:10px solid rgba(255, 0, 102,0.5);
+	//background-color: rgba(255, 0, 102,0.5);
+}
+
+blockquote > hr {
+	border-top: 7px dotted rgba(255, 0, 102,0.5);
+	margin-top: 15px;
+}
+
+div.flex {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+#ninjaquote {
+	color: white;
+	background-color: #252525;
+	display: inline-block;
+	text-align:center;
+	padding: 7px 10px;
+	border: 2px solid white;
+	font-style: italic;
+}
+
+
+
+.menu {
+	background-color: rgba(0,0,0,0.2);
+	padding: 5px;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.menu a {
+	display: inline-block;
+	width: 50px;
+	height: 40px;
+	background-color: #252525;
+	border-bottom: 5px solid crimson;
+	text-align: center;
+	margin: 4px;
+	padding-top: 15px;
+	font-size: large;
+	box-shadow: 0 0 2px 2px rgba(255, 0, 0, 0.2);
+}
+
+.menu a:hover {
+	background-color: #777;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.menu::-webkit-scrollbar {
+	display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.menu {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
