@@ -14,9 +14,6 @@ body {
 	/*backdrop-filter: blur(2px);
 	background-image: url("https://i.pinimg.com/originals/df/d1/93/dfd1934a073eb6d4d10206a31e016021.jpg");
 	*/
-	background-repeat: no-repeat;
-	background-attachment: fixed;background-position:bottom;
-	background-size:100% auto;
 }
 
 #background-img {
@@ -26,6 +23,10 @@ body {
 	margin: -8px;
 	z-index: -1;
 	background-image: url("ninjabg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:bottom;
+	background-size:100% auto;
 }
 
 a {
