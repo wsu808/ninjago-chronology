@@ -7,14 +7,25 @@ html, body {
 body {
 	font-family:monospace;
 	font-weight:bold;
-	background-color:#fca100; //#cccccc;
+	/*background-color:#fca100; #cccccc;*/
+	background: linear-gradient(to right, #fb8400, #faa100, #fb7e00 );
 	color:black;
-	background-image: url("ninjabg.png");
-	//backdrop-filter: blur(2px);
-	//background-image: url("https://i.pinimg.com/originals/df/d1/93/dfd1934a073eb6d4d10206a31e016021.jpg");
+	
+	/*backdrop-filter: blur(2px);
+	background-image: url("https://i.pinimg.com/originals/df/d1/93/dfd1934a073eb6d4d10206a31e016021.jpg");
+	*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;background-position:bottom;
 	background-size:100% auto;
+}
+
+#background-img {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: -8px;
+	z-index: -1;
+	background-image: url("ninjabg.png");
 }
 
 a {
@@ -23,8 +34,8 @@ a {
  
 h1 {
 	color:crimson;
-	background-color:#252525;//#f1f1f1;
-	//font-size:200%;
+	background-color:#252525;/*#f1f1f1;*/
+	/*font-size:200%;*/
 	text-align:center; 
 	margin-left:auto;
 	margin-right:auto;
@@ -32,8 +43,8 @@ h1 {
 
 h2 {
 	color:crimson;
-	background-color:#252525;//#f1f1f1;
-	//font-size:200%;
+	background-color:#252525;/*#f1f1f1;*/
+	/*font-size:200%;*/
 	text-align:center; 
 	width:60%;
 	margin-left:auto;
@@ -42,8 +53,8 @@ h2 {
 
 h3 {
 	color:crimson;
-	background-color:#252525;//#f1f1f1;
-	//font-size:200%;
+	background-color:#252525;/*//#f1f1f1;*/
+	/*//font-size:200%;*/
 	text-align:center; 
 	width:40%;
 	margin-left:auto;
@@ -52,10 +63,10 @@ h3 {
 
 blockquote {
 	color:white;
-	background-color:#252525;//#f1f1f1;
+	background-color:#252525;/*//#f1f1f1;*/
 	padding:5px 10px;
 	margin-left:15px;
-	//font-size:110%;
+	/*//font-size:110%;*/
 	border-left:4px solid crimson;
 	width:50%;
 	min-width:320px;
@@ -88,9 +99,9 @@ blockquote.bluequote a {
 
 ol, ul {
 	color:white;
-	background-color:rgba(37,37,37,0.3);//#252525;//#f1f1f1;
+	background-color:rgba(37,37,37,0.3);/*//#252525;//#f1f1f1;*/
 	margin-left:15px;
-	//font-size:110%;
+	/*//font-size:110%;*/
 	border-left:4px solid blue;
 	padding: 5px 45px;
 	width:30%;
@@ -101,7 +112,7 @@ ol, ul {
 hr {
 	border:none;
 	border-top:10px solid rgba(255, 0, 102,0.5);
-	//background-color: rgba(255, 0, 102,0.5);
+	/*//background-color: rgba(255, 0, 102,0.5);*/
 }
 
 blockquote > hr {
